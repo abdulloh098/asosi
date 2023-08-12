@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.butom {
+    width: 179.78465270996094px;
+    height: 67.11199188232422px;
+    border-radius: 60%;
+    border: 2px solid #0CA941;
+    background: none;
+
+}
+
+.jirni {
+    color: #0CA941;
+}
+
+
+header h1 {
+    font-size: 60px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 60px;
+}
+
+header img {
+
+    width: 400px;
+}
+
+header .aylana {
+    margin-top: 40px;
+    width: 100px;
+}
+
+.container {
+    margin-bottom: 90px;
+}
+
+.feft p {
+    color: #678570;
+}
+
+section .bir {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+section .gul {
+    padding: 30px;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.gul p {
+    padding: 20px;
+    color: #678570;
+}
+
+.b-h2 {
+    color: #374A3D;
+    font-size: 30px;
+}
+
+
+.hedr-s {
+    gap: 50px;
+}
+
+.hedr-s p {
+    color: #678570;
+}
+
+.text h2 {
+    color: #374A3D;
+}
+
+
+.hedr-s1 {
+    gap: 50px;
+}
+
+.text1 h2 {
+    color: #374A3D;
+}
+
+.text1 p {
+    color: #678570;
+}
+
+.jingalak {
+    margin-top: 40px;
+    width: 100px;
+}
+
+.container {
+    text-align: center;
+}
+
+.container h1 {
+    color: #374A3D;
+}
+
+.container p {
+    color: #678570;
+}
+
+.container1 {
+    width: 100%;
+    border: 1px solid #374A3D5C;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.crat-btn {
+    width: 100px;
+    height: 50px;
+    background: none;
+    color: #678570;
+    border-radius: 10px;
+    border: 1px solid #374A3D5C;
+}
+
+.ota {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 60px 40px;
+}
+
+.yashil {
+    color: #0CA941;
+    padding: 0 60px;
+}
+.uchtasi{
+    wi
+}
+.h1-hh {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.h1-hh h1 {
+    color: #374A3D;
+
+}
+
+.h1-hh p {
+    color: #678570;
+    padding: 20px;
+}
+
+aside {
+    padding: 200px;
+}
+
+aside .logo1 {
+    padding: 20px;
+
+}
+
+aside {
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+aside p {
+    color: #678570;
+}
+
+footer {
+    border-top: 2px solid brown;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+
+
+}
+
+.inbut-btn input {
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+
+}
+
+.inbut-btn button {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #0CA941;
+    border: none;
+    color: #fff;
+}
+
+@media all and (max-width: 1099px) {
+    header {
+        text-align: center;
+        height: max-content;
+        flex-direction: column-reverse;
+    }
+}
+
+@media all and (max-width: 1417px) {
+    .hedr-s {
+
+        text-align: center;
+        height: max-content;
+        flex-direction: column-reverse;
+    }
+}
+
+
+@media all and (max-width: 1417px) {
+    .hedr-s1 {
+
+        text-align: center;
+        height: max-content;
+        flex-direction: column;
+    }
+}
+
+@media all and (max-width: 1242px) {
+    .ota {
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    aside{
+        padding: 60px 40px;
+    }
+    .guldon{
+        display: none;
+    }
+}
+
+@media all and (max-width: 823px) {
+    .ota {
+        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    .uchtasi{
+        width: 100%;
+    
+    }
+    .suv_quy{
+        width: 100%;
+    }
+
+}
+
+@media all and (max-width: 1265px) {
+    .footer-1 {
+        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+    footer{
+        display: none;
+    }
+
+}
+
+@media all and (max-width: 1075px) {
+    .footer-1 {
+        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer-1 div{
+        text-align: center;
+    }
+
+}
+
+@media all and (max-width: 900px) {
+    .footer-1 {
+        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+}
+
+@media all and (max-width: 900px) {
+    .bir {
+        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    .uzun-sec{
+        width: 100%;
+        padding: auto;
+    }
+
+}
+
+@media all and (max-width: 1241px) {
+
+    section {
+
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+}
